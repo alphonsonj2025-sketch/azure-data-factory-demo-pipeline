@@ -68,3 +68,10 @@ Dataset configured with container, directory, and file path.
 - Configured file paths correctly
 
 Next step: Build pipeline to move data from Blob to Data Lake.
+![Linked Service](images/linked_service.png)
+
+![Dataset Naming](images/dataset_naming.png)
+
+![Blob Dataset](images/blob_dataset_creation.png)
+
+![File Path](images/dataset_file_path.png)
