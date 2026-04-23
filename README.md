@@ -17,3 +17,8 @@ This project shows how data is moved from a source system into a destination usi
 
 ## Author:
 Alphonso
+### 📸 Linked Services Screenshot
+
+Below shows the configured Linked Services in Azure Data Factory, including Blob Storage and Data Lake Storage Gen2 used for data ingestion.
+
+![Linked Services](./Linked_Services.png)
