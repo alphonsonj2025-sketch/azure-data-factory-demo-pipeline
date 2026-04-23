@@ -1,0 +1,15 @@
+{
+	"name": "vadfsolavise237",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bad79c7a-29c7-4116-836d-bef54a22983c",
+		"tenantId": "74f94e54-ae6c-46d4-88e3-e71ffe1e4d4f"
+	}
+}
