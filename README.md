@@ -22,3 +22,49 @@ Alphonso
 Below shows the configured Linked Services in Azure Data Factory, including Blob Storage and Data Lake Storage Gen2 used for data ingestion.
 
 ![Linked Services](./Linked_Services.png)
+📊 Azure Data Factory – Dataset Creation Project
+
+This project demonstrates how datasets were created and configured in Azure Data Factory using Azure Blob Storage.
+
+---
+
+🔹 Linked Service Setup
+
+Connection established between Azure Data Factory and Blob Storage.
+
+"Linked Service" (images/linked_service.png)
+
+---
+
+🔹 Dataset Naming Convention
+
+A structured naming convention was applied for clarity and maintainability.
+
+"Dataset Naming" (images/dataset_naming.png)
+
+---
+
+🔹 Blob Dataset Creation
+
+Dataset created for product data stored in Blob Storage.
+
+"Blob Dataset" (images/blob_dataset_creation.png)
+
+---
+
+🔹 File Path Configuration
+
+Dataset configured with container, directory, and file path.
+
+"File Path" (images/dataset_file_path.png)
+
+---
+
+🚀 Summary
+
+- Created Linked Services
+- Built datasets for Blob Storage
+- Applied professional naming conventions
+- Configured file paths correctly
+
+Next step: Build pipeline to move data from Blob to Data Lake.
