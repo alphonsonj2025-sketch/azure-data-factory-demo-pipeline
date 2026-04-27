@@ -75,3 +75,23 @@ Next step: Build pipeline to move data from Blob to Data Lake.
 ![Blob Dataset](images/blob_dataset_creation.png)
 
 ![File Path](images/dataset_file_path.png)
+
+
+Batch & Sequential Processing Design
+This pipeline was enhanced to support dynamic batch ingestion using parameterization and controlled execution.
+⚙️ Key Features
+Batch Processing: Multiple tables processed in one pipeline
+Sequential Execution: Controlled using ForEach (Batch count = 1)
+Dynamic Table Handling: Table names passed as parameters
+
+[
+  {"table": "SalesLT.Customer", "folder": "customer"},
+  {"table": "SalesLT.Product", "folder": "product"},
+  {"table": "SalesLT.SalesOrderHeader", "folder": "salesorder"}
+]
+
+ForEach Loop
+   ↓
+Dynamic Copy Activity
+   ↓
+SQL → Data Lake (per table)
